@@ -424,12 +424,6 @@ on post-fs-data
     #Create dir for dolby
     mkdir /data/vendor/dolby 0770 media media
 
-service nqnfcinfo /system/vendor/bin/nqnfcinfo
-    class late_start
-    group nfc
-    user system
-    oneshot
-
 service iop /system/vendor/bin/iop
     class main
     user root
