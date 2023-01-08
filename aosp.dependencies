@@ -12,8 +12,8 @@
     "branch": "thirteen"
   },
   {
-    "remote": "pixel-devices-blobs",
-    "repository": "vendor_xiaomi_veux",
+    "remote": "github",
+    "repository": "rulim34/vendor_xiaomi_veux",
     "target_path": "vendor/xiaomi/veux",
     "branch": "thirteen"
   },
